@@ -1,0 +1,16 @@
+#!/bin/bash
+
+dir="$(dirname "$(readlink -f "$0")")"
+mkdir -p "$dir/archive"
+
+for f in "$dir"/*; do
+    if [ -f "$f" ]; then
+        if [ "${f##*.}" = "$1" ]; then
+            echo "$f"
+            cp "$f" "$dir/archive"
+        fi
+    fi
+done
+
+tar -cjvf archive.tar archive
+rm -rf "$dir/archive"
