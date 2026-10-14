@@ -12,5 +12,5 @@ for f in "$dir"/*; do
     fi
 done
 
-tar -cjvf archive.tar archive
+tar -cjvf temp/archive.tar archive
 rm -rf "$dir/archive"
