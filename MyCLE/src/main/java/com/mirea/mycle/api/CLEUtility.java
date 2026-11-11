@@ -1,0 +1,4 @@
+package com.mirea.mycle.api;
+
+public interface CLEUtility {
+}
