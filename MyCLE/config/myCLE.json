@@ -1,0 +1,14 @@
+{
+	"vfs-path": "vfs/vfs.xml",
+	"script-path": "",
+	"utilities": [
+		"com.mirea.mycle.builtin.Set",
+		"com.mirea.mycle.builtin.Cd",
+		"com.mirea.mycle.builtin.Ls",
+		"com.mirea.mycle.builtin.Cat",
+		"com.mirea.mycle.builtin.Where"
+	],
+	"utility-settings": {},
+	"temp": "93",
+	"temp2": "hello_world"
+}

@@ -1,0 +1,8 @@
+set --value >temp 93
+
+cd /home
+cd user
+ls
+
+cat hello.txt
+cat hello.txt wish.txt

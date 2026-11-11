@@ -1,0 +1,11 @@
+<vfs name="vfs">
+    <directory name="home">
+        <directory name="user">
+            <file name="hello.txt" content="Hello, world!&#10;"/>
+            <file name="wish.txt" content="Have a nice day!&#10;"/>
+        </directory>
+    </directory>
+    <directory name="etc">
+        <file name="config.txt" content="configuration"/>
+    </directory>
+</vfs>
